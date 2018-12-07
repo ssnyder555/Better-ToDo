@@ -23,6 +23,8 @@ $("input[type='text']").keypress(function(event){
   var toDoText = $(this).val()
   $(this).val('')
   // create a new li and add to ul
+  // append method can take a string
+  // and append it to whatever we want
   $('ul').append('<li><span>X </span>' + toDoText + '</li>');
   }
 });

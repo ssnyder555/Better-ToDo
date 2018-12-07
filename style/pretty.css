@@ -6,13 +6,36 @@ h1 {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: normal;
-
-
-
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
+body {
+  font-family: Roboto;
+}
+li {
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #33cccc;
+}
+input:focus {
+  background: white;
+  border: 3px solid #33cccc;
+  outline: none;
+}
+/* li:nth-child(2n){
+  background-color: blue;
+} */
 
 #container {
   width: 360px;

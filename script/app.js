@@ -25,6 +25,10 @@ $("input[type='text']").keypress(function(event){
   // create a new li and add to ul
   // append method can take a string
   // and append it to whatever we want
-  $('ul').append('<li><span>X </span>' + toDoText + '</li>');
+  $('ul').append('<li><span><i class="fa fa-trash"></i> </span>' + toDoText + '</li>');
   }
+});
+
+$('.fa-plus-square').click(function(){
+  $("input[type='text']").fadeToggle();
 });

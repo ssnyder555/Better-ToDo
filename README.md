@@ -8,3 +8,5 @@
 ## technology's used:
 - HTML  CSS JavaScript jQuery
 - Fonts awesome
+
+![alt text](/img/todo.png)
